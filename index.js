@@ -4,7 +4,7 @@ const cors = require('cors');
 const upload = multer({ dest: 'uploads/' });
 
 const app = express();
-
+console.log('测试sandbox')
 app.get('/', (req, res) => {
   res.send('hello nodejs');
 });
